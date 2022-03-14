@@ -1,3 +1,9 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
 header {
     background-color: #d35649;
     padding: 1% 0% 1% 0%;
@@ -16,7 +22,7 @@ header {
 }
 
 .formulaire-recherche {
-    background: white;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     margin: 0% 25% 0% 25%;
     padding: 1.5% 1.5% 1.5% 1.5%;
@@ -36,24 +42,69 @@ FOOTER CSS
     padding-top: 1%;
 }
 
-
-/*.subscribe {
-    padding-left: 16%;
-}
-
-.contact-list {
-    padding-left: 12%;
-}
-
-.about {
-    padding-left: 12%;
-}*/
-
-.btn-send {
+.btn-send-footer {
     background-color: #444;
+}
+
+.form-footer {
+    margin-left: 19%;
 }
 
 .copyright {
     background-color: #444;
     padding-top: 0.5%;
+}
+
+footer {
+    background-color: black;
+    overflow: hidden;
+    margin: 0%;
+}
+
+.icon-social-with-border {
+    padding-top: 5%;
+}
+
+div>.icon-social-1 {
+    border-top: solid white;
+    border-bottom: solid white;
+    border-bottom-width: thin;
+    border-top-width: thin;
+    padding: 1% 1.5% 0% 1.5%;
+    height: 1%;
+}
+
+div>.icon-social-2 {
+    border-top: solid white;
+    border-bottom: solid white;
+    border-bottom-width: thin;
+    border-top-width: thin;
+    padding: 1% 1.5% 0% 1.5%;
+    height: 1%;
+}
+
+.icon-localisation {
+    border: solid white;
+    border-width: thin;
+    margin-top: -2%;
+    margin-bottom: -2%;
+    padding-top: 2.4%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 50%;
+}
+
+.icon-localisation>i {
+    font-size: 36px;
+    color: white;
+    padding: 5%;
+}
+
+.icon-social>.fa {
+    color: #98a5a5;
+}
+
+.icon-social>i {
+    padding-left: 4%;
 }
