@@ -1,0 +1,59 @@
+header {
+    background-color: #d35649;
+    padding: 1% 0% 1% 0%;
+}
+
+#search {
+    background-image: url("../Assets/Images/group-1.jpg");
+    background-size: cover;
+    padding-top: 5%;
+    height: 50%;
+}
+
+.btn-search {
+    background-color: #d35649;
+    border-radius: 4px;
+}
+
+.formulaire-recherche {
+    background: white;
+    border-radius: 5px;
+    margin: 0% 25% 0% 25%;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+}
+
+.btn-work {
+    background-color: white;
+}
+
+
+/*
+FOOTER CSS
+*/
+
+.contact {
+    background-color: black;
+    padding-top: 1%;
+}
+
+
+/*.subscribe {
+    padding-left: 16%;
+}
+
+.contact-list {
+    padding-left: 12%;
+}
+
+.about {
+    padding-left: 12%;
+}*/
+
+.btn-send {
+    background-color: #444;
+}
+
+.copyright {
+    background-color: #444;
+    padding-top: 0.5%;
+}
